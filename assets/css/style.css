@@ -1,0 +1,362 @@
+/****************************************************
+		Project Name: LMS;
+		Project Date: 21-01-2021;
+		Client Name: LEDP;
+		Developer: SATech360;
+	*********************************
+	---------------------------------
+	Project Section
+	---------------------------------
+	1.Topbar
+	2.Header
+	3.Slider
+	4.About US
+	5.Course
+	6.Fatcs
+	7.Recent News
+	8.Test
+	9.CTA
+	10.Footer
+*****************************************************
+*****************************************************/
+
+/****************************************************
+	Bass CSS Start
+*****************************************************/
+	*,body{
+		padding: 0;
+		margin: 0;
+		font-family: 'Raleway', sans-serif;
+	}
+	a{
+		text-decoration: none;
+	}
+	a:hover{
+		text-decoration: none;
+	}
+	ul{
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+/****************************************************
+	Bass CSS End
+*****************************************************/
+/****************************************************
+	Common CSS Start
+*****************************************************/
+.btn{
+	border-radius: 0px !important;
+}
+.card{
+	border-radius:  0px !important;
+}
+.f-color{
+	color: #56ab2f;
+}
+.s-color{
+	color: #feffff;
+}
+.t-color{
+	color: #1e1d1d;
+}
+.f-bg{
+	background: #ab2f84;
+}
+.s-bg{
+	background: #feffff;
+}
+.t-bg{
+	background: #1e1d1d;
+}
+.fw-b{
+	font-weight: bold;
+}
+.number-family{
+	font-family: 'Open Sans', sans-serif !important;
+}
+.fw-bold{
+	font-weight: bold;
+}
+.fw900{
+	font-weight: 900;
+}
+/****************************************************
+	Common CSS End
+*****************************************************/
+/****************************************************
+	Topbar CSS Start
+*****************************************************/
+.topbar{
+	height: 49px;
+	line-height: 49px;
+}
+.left-top li{
+	padding-left: 10px;
+}
+.left-top li:first-child{
+	padding-left: 0px !important;
+}
+.right-top li:last-child{
+	padding-left: 10px;
+}
+.line-after::after{
+	content: "|";
+	color: white;
+	padding-left: 10px;
+}
+/****************************************************
+	Topbar CSS End
+*****************************************************/
+/****************************************************
+	Header CSS Start
+*****************************************************/
+.brd{
+	background: #56ab2f !important;
+	border-radius: 50% !important;
+}
+.nav-link{
+	font-weight: 700;
+}
+.navbar{
+	position: sticky !important;
+	top: 0;
+	z-index: 3333;
+}
+.btn-f{
+	background: #56ab2f !important;
+	color: white;
+}
+.btn-f:hover{
+	border:1px solid #56ab2f;
+	background: #fff !important;
+}
+.btn-f-o{
+	border:1px solid #56ab2f;
+	background-color: white;
+}
+.btn-f-o:hover{
+	background: #56ab2f !important;
+	color: white;
+}
+
+.teacher-h-b :hover{
+	background: white !important;
+}
+.btn-f-o-h:hover{
+	border:2px solid #56ab2f;
+}
+
+.position-rel{
+	position: relative;
+}
+.position-abs{
+	position: absolute;
+	top: 35%;
+	left: 55%;
+}
+/****************************************************
+	Header CSS End
+*****************************************************/
+/****************************************************
+	Slider CSS Start
+*****************************************************/
+
+
+/****************************************************
+	Slider CSS End
+*****************************************************/
+/****************************************************
+	About US CSS Start
+*****************************************************/
+.acady{
+	background: url(../img/acadimy.png);
+	height: 300px;
+	margin-left: 100px;
+	margin-top: 100px;
+}
+.princ{
+	max-height: 290px;
+	margin-left: -50px;
+	margin-top: 50px;
+}
+.fs-30{
+	font-size: 35px !important;
+}
+.fw900{
+	font-weight: 900;
+}
+/****************************************************
+	About US CSS End
+*****************************************************/
+/****************************************************
+	Course CSS Start
+*****************************************************/
+.card-img-top {
+	border-radius: 0px !important;
+}
+.course-list{
+	padding: 0;
+	margin: 0;
+	border:1px solid #56ab2f !important;
+}
+.course-list li:first-child {
+    /* border-right: 1px solid #56ab2f !important; */
+    margin-left: 2px !important;
+}
+.course-list li:nth-child(2){
+	background: #56ab2f !important;
+	padding-left: 36px;
+	padding-right: 36px;
+}
+.course-list li:nth-child(2) a{
+	color: white;
+}
+.course-list li:last-child{
+	/* border-left:1px solid #56ab2f !important; */
+	padding: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.custom-card{
+	padding-bottom: 0px !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev{
+	position: absolute;
+	top: 40%;
+	font-size: 30px;
+}
+.owl-carousel .owl-nav button.owl-next{
+	position: absolute;
+	right: -5%;
+}
+.owl-carousel .owl-nav button.owl-prev{
+	position: absolute;
+	left: -5%;
+}
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: transparent !important; 
+    color: #56ab2f !important; 
+    text-decoration: none !important; 
+}
+.owl-carousel .owl-nav button.owl-next:focus{
+	border: none !important;
+	outline: none !important; 
+}
+.owl-carousel .owl-nav button.owl-prev:focus{
+	border: none !important;
+	outline: none !important; 
+}
+/****************************************************
+	Course CSS End
+*****************************************************/
+/****************************************************
+	Fatcs CSS Start
+*****************************************************/
+.facts{
+	background: url(../img/facts.png);
+	background-attachment: fixed;
+	width: 100%;
+}
+.contact-btn{
+	background: transparent;
+	border:1px solid #fff;
+	color: #fff;
+}
+.contact-btn:hover{
+	background: #fff;
+	border:1px solid #56ab2f;
+	color: #56ab2f;
+}
+/****************************************************
+	Fatcs CSS End
+*****************************************************/
+/****************************************************
+	Recent News CSS Start
+*****************************************************/
+
+
+/****************************************************
+	Recent News CSS End
+*****************************************************/
+/****************************************************
+	Test CSS Start
+*****************************************************/
+.testmonial{
+	background: url(../img/testimonial.png);
+}
+
+.recent-img{
+	max-width: 100px;
+	margin: 0px auto;
+	margin-bottom: -45px;
+}
+.recent-card{
+	border:20px solid transparent;
+	border-image: url(../img/border.png) 55% round;
+	border-top:none;
+}
+/****************************************************
+	Test CSS End
+*****************************************************/
+/****************************************************
+	CTA CSS Start
+*****************************************************/
+.email{
+    width: 25%;
+    height: 51px;
+    border: 1px solid #fff;
+    padding: 5px;
+    background: transparent;
+}
+.email:focus{
+	border: 1px solid #fff;
+	outline: none;
+}
+::placeholder{
+	color: #fff;
+}
+.test_btn{
+	background: #fff;
+    color: #000;
+    padding: 11px;
+    border: 3px solid #fff;
+    margin-top: -2px;
+}
+/****************************************************
+	CTA CSS End
+*****************************************************/
+/****************************************************
+	Footer CSS Start
+*****************************************************/
+.left-link li a{
+	color: #fff;
+	line-height: 32px;
+}
+.left-link li a:hover{
+	color: #56ab2f;
+}
+.line{
+	border-top: 1px solid #56ab2f;
+}
+.footer-icon li{
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	text-align: center;
+	border: 1px solid #56ab2f;
+	border-radius: 50%;
+	margin-left: 10px;
+}
+
+.footer-icon li a:hover{
+	
+	color: #56ab2f;
+}
+/****************************************************
+	Footer CSS End
+*****************************************************/

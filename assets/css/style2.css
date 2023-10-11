@@ -1,0 +1,586 @@
+/*************************************************************************************
+*Project Name: Educafe;
+*Project Date: 16-09-2020;
+*Project submission date: 17-09-2020;
+*Client Name: LEDP WD-D11;
+***************************
+*Project Total Pages
+*____________________
+*1.Home
+***Total Section
+***1.TopBar
+***2.Header
+***3.Slider
+***4.principle
+***5.Course
+***6.Facts
+***7.Blog
+***8.Testimonial
+***9.Footer
+*____________________
+*********************************************************************************/
+/********************************************************************************
+								Base CSS Start
+*********************************************************************************/
+*,body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+}
+ul{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	color: #f1f1f1;
+	padding: 6px;
+	
+}
+::placeholder{
+	color: white;
+}
+/********************************************************************************
+								Base CSS End
+*********************************************************************************/
+/********************************************************************************
+								Common CSS Start
+*********************************************************************************/
+.primary_color{
+	color: #56ab2f !important;
+}
+.secondary_color{
+	color: #000022 !important;
+}
+.primary_bg{
+	background-color: #56ab2f !important;
+}
+.secondary_bg{
+	background-color: #000022 !important;
+}
+.fw500{
+	font-weight: 500 !important;
+}
+.fw600{
+	font-weight: 600 !important;
+}
+.fw700{
+	font-weight: 700 !important;
+}
+.fw800{
+	font-weight: 800 !important;
+}
+.fw900{
+	font-weight: 900 !important;
+}
+.btn{
+	border-radius: 0px !important;
+}
+.btn_primary{
+	background-color: #56ab2f !important;
+	color: white !important;
+}
+.btn_outline_primary{
+	border: 1px solid #56ab2f !important;
+	color: #56ab2f !important;
+}
+.btn_outline_primary:hover{
+	color: white !important;
+	background-color: #56ab2f !important;
+}
+.no-radius{
+	border-radius: 0 !important;
+}
+.c_font_family{
+	font-family: 'Lora', serif;
+}
+.z-index-0{
+	z-index: -111;
+}
+.active_card{
+	border: 1px solid #56ab2f !important;
+}
+
+/********************************************************************************
+								Common CSS End
+*********************************************************************************/
+/********************************************************************************
+								TopBar CSS Start
+*********************************************************************************/
+.topbar{
+	height: 49px !important;
+	line-height: 49px !important;
+}
+/*.position_relative_top{
+	position: relative;
+}*/
+.left-menu li {
+	padding-left: 20px !important;
+}
+.left-menu li:nth-child(1) {
+	padding-left: 0px !important;
+}
+.right-menu li:nth-child(2){
+	padding-left: 10px !important;
+}
+.right-menu-li::after{
+	content: "|";
+	padding-left:10px;
+	color: #c7c7c7;
+}
+/********************************************************************************
+								TopBar CSS End
+*********************************************************************************/
+/********************************************************************************
+								Owl Start
+*********************************************************************************/
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+	position: absolute;
+	top: 45%;
+	font-size: 48px;
+	color: #c7c7c7;
+}
+.owl-carousel .owl-nav button.owl-next:hover, .owl-carousel .owl-nav button.owl-prev:hover{
+	background-color: transparent;
+	color: #56ab2f !important;
+}
+.owl-carousel .owl-nav button.owl-next:focus, .owl-carousel .owl-nav button.owl-prev:focus{
+	border: transparent !important;
+	outline: transparent !important;
+}
+.owl-carousel .owl-nav button.owl-next{
+	right: -5%;
+}
+.owl-carousel .owl-nav button.owl-prev{
+	left: -5%;
+}
+/*********************************************************************************
+								Owl End
+**********************************************************************************/
+/********************************************************************************
+								Header CSS Start
+*********************************************************************************/
+.header{
+	position: sticky;
+	top: 0;
+	z-index: 11111;
+}
+.nav_bg{
+	background: rgba(255,255,255, .7);
+}
+.nav-link{
+	font-weight: 500 !important;
+}
+.active_c{
+	color: #56ab2f !important;
+}
+/********************************************************************************
+								Header CSS End
+*********************************************************************************/
+/********************************************************************************
+								Slider CSS Start
+*********************************************************************************/
+/*.position_absilute_slider{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -999;
+}*/
+.position_relative{
+	position: relative;
+}
+.position_absulate{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+}
+
+/********************************************************************************
+								Slider CSS End
+*********************************************************************************/
+/********************************************************************************
+								principle CSS Start
+*********************************************************************************/
+.principle{
+	/*margin-top: 40%;*/
+	padding-top: 50px !important;
+	padding-bottom: 50px !important;
+}
+.text-ind{
+	letter-spacing:3px;
+}
+.position_relative_princ{
+	position: relative;
+}
+.bg_img{
+	position: relative;
+	top: 0;
+	left: 30%;
+}
+.bg_img_aca{
+	
+	width: 100%;
+}
+.mt_50{
+	margin-top: -40%;
+}
+.max_200{
+	max-width: 270px !important;
+}
+/********************************************************************************
+								principle CSS End
+*********************************************************************************/
+/********************************************************************************
+								Course CSS Start
+*********************************************************************************/
+.active_card:hover{
+	border-color: #56ab2f !important;
+}
+.custom_body{
+	padding: 0px !important;
+	padding-top: 10px !important;
+	/*border: 1px solid #d2d2d2 !important;*/
+	border-top: transparent !important;
+}
+.border_btrn{
+	width: 135px;
+	border-bottom: 2px solid #c7c7c7;
+	margin-left: 115px;
+}
+.course-list{
+	margin-bottom: 0px !important;
+}
+.course-list li{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 1px solid #d2d2d2;
+	border-collapse: collapse;
+	width: 120px;
+	text-align: center;
+	border-bottom: transparent;
+}
+.course-list li:nth-child(1){
+	border-left:transparent;
+}
+.course-list li:nth-child(2){
+	width: 210px;
+	background-color: #56ab2f !important;
+	border-left:transparent;
+	border-right: transparent;
+}
+
+.course-list li:nth-child(3){
+	border-right:transparent;
+}
+/********************************************************************************
+								Course CSS End
+*********************************************************************************/
+/********************************************************************************
+								Facts CSS Start
+*********************************************************************************/
+.facts{
+	width: 100%;
+	background: url(../img/home/face_bg.png);
+	/*background-size: cover;*/
+	background-attachment: fixed;
+
+}
+
+/********************************************************************************
+								Facts CSS End
+*********************************************************************************/
+/********************************************************************************
+								Blog CSS Start
+*********************************************************************************/
+.c_btn{
+	color:black;
+	font-weight: 700;
+}
+.c_btn:hover{
+	text-decoration: none;
+}
+/********************************************************************************
+								Blog CSS End
+*********************************************************************************/
+/********************************************************************************
+								Testimonial CSS Start
+*********************************************************************************/
+.testimonial{
+	background: url(../img/home/test.png);
+}
+.test-img{
+	max-width: 100px;
+	margin-left: 35%;
+	margin-bottom: -12%;
+}
+.card_border{
+	border: 20px solid transparent;
+	border-image: url(../img/home/border.png) 60% round;
+	border-top: none;
+}
+/********************************************************************************
+								Testimonial CSS End
+*********************************************************************************/
+/********************************************************************************
+								News Letter Css Start
+*********************************************************************************/
+.email{
+	padding: 10px;
+	width: 30%;
+	background: transparent;
+	border: 1px solid #fff !important;
+	color: white;
+	font-size: 16px;
+}
+.email:focus{
+	outline: none;
+}
+.test_btn{
+	background: #fff;
+	color: #000;
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+	border: 2px solid rgba(255,255,254,.3);
+}
+/********************************************************************************
+								News Letter Css End
+*********************************************************************************/
+/********************************************************************************
+								Footer CSS Start
+*********************************************************************************/
+.footer{
+	background: #000;
+}
+.footer-link{
+	padding-top: 15px !important;
+}
+/*.footer-link li{
+	text-align: center;
+}*/
+.footer-link li span{
+	font-size: 18px;
+	color: #56ab2f !important;
+}
+.no-padding-margin{
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.footer-bottom{
+	border-top:1px solid #56ab2f !important;
+}
+.footer-icon li{
+	/*padding: 10px;*/
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	border: 1px solid white;
+	border-radius: 50%;
+	text-align: center;
+	margin-left: 5px;
+}
+/********************************************************************************
+								Footer CSS End
+*********************************************************************************/
+/************================================================================*************************
+					About Page  CSS Start
+/************================================================================*************************/
+/********************************************************************************
+								breadcrumb CSS Start
+*********************************************************************************/
+.bradcrumb{
+	background: url(../img/about/bradcamp.png);
+	background-attachment: fixed;
+	/*background-repeat: no-repeat;*/
+	/*background-position: center;*/
+	/*background-size: center;*/
+	/*background-repeat: no-repeat;*/
+}
+.about_ancor:hover{
+text-decoration: none;
+}
+.about_home::after{
+	content: "/";
+	color: white;
+	padding-left: 5px;
+}
+.no_underline{
+	color: #56ab2f !important;
+}
+.no_underline:hover{
+	text-decoration: none;
+}
+.teacher_card{
+	position: relative;
+	overflow: hidden;
+}
+.custom-card-body{
+	padding-top: 10px;
+	border-bottom: 1px solid #56ab2f !important;
+}
+.overlay_card{
+	background: #56ab2f !important;
+	position: absolute;
+	top: 0;
+	right: -120%;
+	padding-left: 10px;
+	padding-right: 10px;
+	transition: 1s ease-out;
+}
+.overlay_list{
+	padding: 0;
+	margin: 0;
+}
+.overlay_list li{
+	height: 50px;
+	width: 50px;
+	line-height: 50px;
+	border: 1px solid white;
+	border-radius: 50%;
+	text-align: center;
+	margin-top: 20%;
+	margin-bottom: 20%;
+}
+.overlay_list li:hover{
+	background: #fff;
+}
+.overlay_list li:hover a{
+	color: #56ab2f !important;
+}
+.teacher_card:hover .overlay_card{
+	right: 0;
+	transition: .5s ease-in;
+}
+.title span{
+	text-decoration-style: solid;
+	text-decoration-line: overline;
+	text-decoration-color: #56ab2f !important;
+}
+.custom_select{
+	padding-top: 7px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border: 1px solid #56ab2f !important;
+}
+.c_btn_border{
+	border: 1px solid #56ab2f !important;
+}
+
+.teacher_icon li{
+	
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	border: 1px solid #c7c7c7;
+	border-radius: 50%;
+	text-align: center;
+	margin-left: 5px;
+}
+.teacher_icon li a{
+	color: black;
+}
+.teacher_icon li a:hover{
+	color: #56ab2f !important;
+}
+.active_card_teacher{
+	border: 1px solid #000;
+}
+.contact-list li{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.contact-list li a{
+	height: 40px;
+	width: 40px;
+	padding: 8px;
+	border-radius: 50%;
+	background: #56ab2f !important;
+	margin-right: 10px;
+}
+/********************************************************************************
+								breadcrumb CSS End
+*********************************************************************************/
+/************================================================================*************************
+					About Page  CSS End
+/************================================================================*************************/
+/********************************************************************************
+								Responsive CSS Start
+*********************************************************************************/
+@media only screen and (max-width: 1024px) {
+	.overlay_list li{
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	margin-top: 24%;
+	margin-bottom: 23%;
+}
+}
+@media only screen and (max-width: 991px) {
+	.left-menu li a span{
+		display: none !important;
+	}
+	.position_absilute_slider{
+		top: 10%;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.overlay_list li{
+	height: 60px;
+	width: 60px;
+	line-height: 60px;
+	margin-top: 25%;
+	margin-bottom: 24%;
+}
+.d-block-sm{
+	display: block !important;
+}
+}
+@media only screen and (max-width: 575px) {
+	.left-menu li a span{
+		display: none !important;
+	}
+	.position_absilute_slider{
+		top: 12%;
+	}
+}
+@media only screen and (max-width: 540px) {
+	.overlay_list li{
+		height: 85px;
+		width: 85px;
+		line-height: 85px;
+		margin-top: 32%;
+		margin-bottom: 30%;
+	}
+}
+@media only screen and (max-width: 411px) {
+	.overlay_list li{
+		height: 65px;
+		width: 65px;
+		line-height: 65px;
+		margin-top: 28%;
+		margin-bottom: 29%;
+	}
+}
+@media only screen and (max-width: 360px) {
+	.overlay_list li{
+		height: 60px;
+		width: 60px;
+		line-height: 60px;
+		margin-top: 22%;
+		margin-bottom: 20%;
+	}
+}
+@media only screen and (max-width: 280px) {
+	.overlay_list li{
+		height: 45px;
+		width: 45px;
+		line-height: 45px;
+		margin-top: 23%;
+		margin-bottom: 22%;
+	}
+}
+/********************************************************************************
+								Responsive CSS End
+*********************************************************************************/
+

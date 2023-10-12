@@ -62,7 +62,7 @@
 	color: #1e1d1d;
 }
 .f-bg{
-	background: #ab2f84;
+	background: #56ab2f;
 }
 .s-bg{
 	background: #feffff;
@@ -199,7 +199,6 @@
 .course-list{
 	padding: 0;
 	margin: 0;
-	border:1px solid #56ab2f !important;
 }
 .course-list li:first-child {
     /* border-right: 1px solid #56ab2f !important; */

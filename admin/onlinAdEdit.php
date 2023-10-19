@@ -181,9 +181,6 @@ if (isset($_REQUEST['submit']) && count($_REQUEST) > 0) $Response = $student->Up
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
     <!-- /.container-fluid -->
 
     </div>

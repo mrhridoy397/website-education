@@ -226,8 +226,6 @@ date_default_timezone_set('Asia/Dhaka');
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
         <!-- /.container-fluid -->
 
     </div>

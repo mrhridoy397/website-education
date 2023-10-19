@@ -207,7 +207,8 @@ if (isset($_REQUEST['submit']) && count($_REQUEST) > 1) $Response = $custompage-
     ?>
      <script src="./assets/vendor/ckeditor_4.22.1_full/ckeditor/ckeditor.js"></script>
     <script>  
-        CKEDITOR.replace( 'eventDetails' );
+        CKEDITOR.replace( 'description' );
+        CKEDITOR.replace( 'meta_description' );
      </script>
 
 

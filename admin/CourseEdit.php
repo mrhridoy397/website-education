@@ -174,8 +174,6 @@ if (isset($_REQUEST['submit']) && count($_REQUEST) > 1) $Response = $course->Upd
                             </div>
                         </div>
                     </div>
-                </div>
-                </div>
                 <!-- /.container-fluid -->
 
             </div>

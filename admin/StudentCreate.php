@@ -46,7 +46,7 @@ if (isset($_REQUEST) && count($_REQUEST) > 0) $Response = $student->create($_REQ
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
                         <h1 class="h3 mb-0 text-gray-800">Create <?php echo ucfirst($active); ?></h1>
-                        <a href="CourseIndex.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-users fa-sm text-white-50"></i> All <?php echo ucfirst($active); ?> </a>
+                        <a href="StudentIndex.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-users fa-sm text-white-50"></i> All <?php echo ucfirst($active); ?> </a>
                     </div>
                     <?php if (isset($Response['status']) && !$Response['status']) : ?>
                         <br>

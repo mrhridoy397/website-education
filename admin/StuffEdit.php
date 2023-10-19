@@ -48,7 +48,7 @@ if (isset($_REQUEST['submit']) && count($_REQUEST) > 1) $Response = $stuff->Upda
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
                         <h1 class="h3 mb-0 text-gray-800">Edit <?php echo $active; ?></h1>
-                        <a href="CourseIndex.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-users-cog fa-sm text-white-50"></i> All <?php echo $active; ?></a>
+                        <a href="StuffIndex.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-users-cog fa-sm text-white-50"></i> All <?php echo $active; ?></a>
                     </div>
                     <?php if (isset($Response['status']) && !$Response['status']) : ?>
                         <br>
@@ -403,8 +403,7 @@ if (isset($_REQUEST['submit']) && count($_REQUEST) > 1) $Response = $stuff->Upda
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+        
         <!-- /.container-fluid -->
 
     </div>

@@ -136,9 +136,6 @@ if (isset($_REQUEST['submit']) && count($_REQUEST) > 0) $Response = $comments->U
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
     <!-- /.container-fluid -->
 
     </div>

@@ -113,8 +113,6 @@ if (isset($_REQUEST['submit']) && count($_REQUEST) > 0) $Response = $fees->Updat
                         </div>
                         </div>
                     </div>
-                </div>
-            </div>
             <!-- /.container-fluid -->
 
         </div>

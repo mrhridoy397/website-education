@@ -418,9 +418,9 @@ if (isset($_REQUEST['submit']) && count($_REQUEST) > 1) $Response = $student->Up
                                                         <input type="hidden" value="<?php echo $data['image'] ?>" name="oldImage">
                                                     </div>
                                                 </div>
-                                                <div class="col-4">
+                                                <div class="col-6">
                                                     <button class="btn btn-primary" type="submit" name="submit">Update</button>
-                                                    <a href="./StudentIndex.php" class="btn btn-danger">Cancle</a>
+                                                    <a href="StudentIndex.php" class="btn btn-danger">Cancle</a>
                                                 </div>
                                                 </div>
                                               
@@ -434,8 +434,6 @@ if (isset($_REQUEST['submit']) && count($_REQUEST) > 1) $Response = $student->Up
                         </div>
                         </div>
                     </div>
-                </div>
-            </div>
             <!-- /.container-fluid -->
 
         </div>

@@ -33,8 +33,8 @@ require_once('./partials/header.php')
                 <?php
                 foreach ($galaryCategoris as  $value) {
                 ?>
-                    <div class="col-md-4">
-                        <div class="card shadow mb-2">
+                    <div class="col-md-4 ">
+                        <div class="card shadow mb-2 btn-f-o-h">
                             <img src="<?php echo $value['image']; ?>" alt="<?php echo $value['categorisname']; ?>" class="card-img-top" style="height: 250px; widht: 200px;">
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             <div class="card-body">

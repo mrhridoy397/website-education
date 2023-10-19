@@ -1,3 +1,4 @@
+
 <?php
 require_once(__dir__ . '/Db.php');
 class CMSModel extends Db

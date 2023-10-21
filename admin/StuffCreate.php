@@ -243,19 +243,19 @@ if (isset($_REQUEST) && count($_REQUEST) > 0) $Response = $stuff->create($_REQUE
                                                 </div>
                                                 <div class="col-sm-12 col-md-3">
                                                     <div class="form-group">
-                                                        <label class="control-label" for="link2">Linkedin Link </label>
+                                                        <label class="control-label" for="link2">Twitter Link </label>
                                                         <input class="form-control " type="url" name="link2" id="link2" placeholder="https://" value="">
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-12 col-md-3">
                                                     <div class="form-group">
-                                                        <label class="control-label" for="link3">Github Link </label>
+                                                        <label class="control-label" for="link3">Google+ Link </label>
                                                         <input class="form-control " type="url" name="link3" id="link3" value="">
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-12 col-md-3">
                                                     <div class="form-group">
-                                                        <label class="control-label" for="link4">Behance Link </label>
+                                                        <label class="control-label" for="link4">Instagram Link </label>
                                                         <input class="form-control " type="url" name="link4" id="link4" value="">
                                                     </div>
                                                 </div>

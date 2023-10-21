@@ -329,19 +329,19 @@ if (isset($_REQUEST['submit']) && count($_REQUEST) > 1) $Response = $stuff->Upda
                                                 </div>
                                                 <div class="col-sm-12 col-md-3">
                                                     <div class="form-group">
-                                                        <label class="control-label" for="link2">Linkedin Link </label>
-                                                        <input class="form-control " type="url" name="link2" id="link2" placeholder="https://" value="<?php if(isset($_REQUEST['link2']))  { echo $__REQUEST['link2'];} else{echo $data['link3'];}?>">
+                                                        <label class="control-label" for="link2">Twitter Link </label>
+                                                        <input class="form-control " type="url" name="link2" id="link2" placeholder="https://" value="<?php if(isset($_REQUEST['link2']))  { echo $__REQUEST['link2'];} else{echo $data['link2'];}?>">
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-12 col-md-3">
                                                     <div class="form-group">
-                                                        <label class="control-label" for="link3">Github Link </label>
+                                                        <label class="control-label" for="link3">Google+ Link </label>
                                                         <input class="form-control " type="url" name="link3" id="link3" value="<?php if(isset($_REQUEST['link3']))  { echo $__REQUEST['link3'];} else{echo $data['link3'];}?>">
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-12 col-md-3">
                                                     <div class="form-group">
-                                                        <label class="control-label" for="link4">Behance Link </label>
+                                                        <label class="control-label" for="link4">Instagram Link </label>
                                                         <input class="form-control " type="url" name="link4" id="link4" value="<?php if(isset($_REQUEST['link4']))  { echo $__REQUEST['link4'];} else{echo $data['link4'];}?>">
                                                     </div>
                                                 </div>

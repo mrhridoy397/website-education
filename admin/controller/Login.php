@@ -26,12 +26,12 @@ class Login extends Controller {
  public function login(array $data)
  {
  $email = stripcslashes(strip_tags($data['email']));
- $password = stripcslashes(strip_tags($data['password']));
+ $Password = stripcslashes(strip_tags($data['Password']));
   
  $EmailRecords = $this->loginModel->fetchEmail($email);
   
  if (!$EmailRecords['status']) {
- if (password_verify($password, $EmailRecords['data']['password'])) {
+ if (md5($Password, $EmailRecords['data']['Password'])) {
  //check if the remember_me was selected...
  $Response = array(
  'status' => true

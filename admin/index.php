@@ -62,7 +62,7 @@ if (isset($_REQUEST) && count($_REQUEST) > 0) $Response = $Login->login($_REQUES
                                                                                                                                                                                                                     } ?>">
                                         </div>
                                         <div class="form-group">
-                                            <input type="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password" name="password">
+                                            <input type="Password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password" name="Password">
                                         </div>
                                         <div class="form-group">
                                             <div class="custom-control custom-checkbox small">
@@ -84,10 +84,7 @@ if (isset($_REQUEST) && count($_REQUEST) > 0) $Response = $Login->login($_REQUES
                                     </form>
                                     <hr>
                                     <div class="text-center">
-                                        <a class="small" href="#">Forgot Password?</a>
-                                    </div>
-                                    <div class="text-center">
-                                        <a class="small" href="register.php">Create an Account!</a>
+                                        <a class="small" href="forgotPassword.php">Forgot Password?</a>
                                     </div>
                                 </div>
                             </div>

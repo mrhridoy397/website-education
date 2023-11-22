@@ -30,8 +30,8 @@
                     echo '
                         <div class="container d-flex justify-content-center mt-5 pt-5">
                             <div class="card mt-5" style="width:500px">
-                                <div class="card-header">
-                                    <h1 class="text-center">Creat New Password</h1>
+                                <div class="card-header bg-info text-light">
+                                    <h3 class="text-center">Creat New Password</h3>
                                 </div>
                                 <div class="card-body">
                                     <form method="post">
